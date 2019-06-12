@@ -20,7 +20,16 @@
 </head>
 
 <body>
+
+    <!-- This is to enable autoplay on Google Chrome -->
+    <iframe src="assets/sounds/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+
+    <!-- Background music on loop -->
+    <audio autoplay loop>
+        <source src="assets/sounds/theme.mp3"/>
+    </audio>
     
+    <!-- Starting Content -->
     <div class="container bg-white" id="title">
 
         <div class="row p-5 mt-5" id="logo">
@@ -38,22 +47,25 @@
 
     </div>
 
+    <!-- Main Content -->
     <div class="container bg-white text-center mt-5" id="content">
 
+        <!-- Contains the title -->
         <div class="row p-5 mt-5" id="logo">
             <div class="col-12">
                 <h1>The Office Trivia!</h1>
             </div>
         </div>
 
+        <!-- Contains the timer -->
         <div class="row" id="timer">
             <div class="col-12 mb-3">
                 <h2>Time Remaining: <span id="time">15</span> Seconds</h2>  
             </div>
         </div>
         
+        <!-- Contains the questions -->
         <form id="questions">
-
             <fieldset class="form-group">
                 <div class="row">
                     <div class="col-12 mb-5">
@@ -65,17 +77,17 @@
                         </div>
                     </div>
             </fieldset>
-
         </form>
 
+        <!-- Contains the status -->
         <div class="row text-center" id="status">
             <div class="col-12 mb-5">
                 <h2 id="comment"></h2>
                 <h2 id="correct-answer"></h2>
             </div>
-
         </div>
 
+        <!-- Contains the conclusion -->
         <div class="row text-center" id="end">
             <div class="col-12 mb-5">
                 <h3>All Done!!!</h3>
