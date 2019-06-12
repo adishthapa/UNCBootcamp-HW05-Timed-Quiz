@@ -1,0 +1,60 @@
+h1 {
+    font-size: 5vw;
+}
+
+#title button {
+    font-size: 3vw;
+    padding: 1.5rem 10rem;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+#title #logo h1 {
+    float: left;
+}
+#title #logo img {
+    float: right;
+}
+
+#title #logo {
+    border:3px solid black;
+    border-radius: 20px;
+}
+
+#content {
+    border:3px solid black;
+    border-radius: 20px;
+}
+
+legend {
+    font-size: 2vw;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1
+}
+
+#end button {
+    font-size: 3vw;
+    padding: 1.5rem 10rem;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}

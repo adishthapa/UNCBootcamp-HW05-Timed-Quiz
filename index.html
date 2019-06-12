@@ -16,10 +16,71 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <!-- Title -->
-    <title>Timed Quiz</title>
+    <title>The Office Trivia!</title>
 </head>
 
 <body>
+    
+    <div class="container bg-white" id="title">
+
+        <div class="row p-5 mt-5" id="logo">
+            <div class="col-12">
+                <h1>The <br> Office <br> Trivia!</h1>
+                <img src="assets/images/title.png" alt="title">
+            </div>
+        </div>
+
+        <div class="row text-center mt-5 pt-5">
+            <div class="col-12 mb-5">
+                <button class="btn btn-lg mb-5" id="start">Start</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container bg-white text-center mt-5" id="content">
+
+        <div class="row p-5 mt-5" id="logo">
+            <div class="col-12">
+                <h1>The Office Trivia!</h1>
+            </div>
+        </div>
+
+        <div class="row" id="timer">
+            <div class="col-12 mb-3">
+                <h2>Time Remaining: <span id="time">15</span> Seconds</h2>  
+            </div>
+        </div>
+        
+        <form id="questions">
+
+            <fieldset class="form-group">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <legend id="question"></legend>
+                        <div class="btn-group-vertical" role="group">
+                            <button type="button" class="answer" id="0" value="0"></button>                    
+                            <button type="button" class="answer" id="1" value="1"></button>
+                            <button type="button" class="answer" id="2" value="2"></button>
+                        </div>
+                    </div>
+            </fieldset>
+
+        </form>
+
+        <div class="row text-center" id="end">
+            <div class="col-12 mb-5">
+                <h3>All Done!!!</h3>
+                <h3>Correct Answers: <span id="correct"></span></h3>
+                <h3>Incorrect Answers: <span id="incorrect"></span></h3>
+                <h3>Unanswered: <span id="unanswered"></span></h3>
+                <br>
+                <br>
+                <button class="btn btn-lg mb-5" id="restart">Restart</button>
+            </div>
+        </div>
+
+    </div>
 
     <!-- CDN for Custom JS -->
     <script src="assets/javascript/app.js"></script>
