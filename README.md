@@ -1,6 +1,22 @@
-# UNCBootcamp-HW05-Timed-Quiz
-UNC Coding Bootcamp HW 05 Timed Quiz
+# The Office Trivia Game
 
-Link: [https://adishthapa.github.io/UNCBootcamp-HW05-Timed-Quiz/](https://adishthapa.github.io/UNCBootcamp-HW05-Timed-Quiz/)
+A trivia game based on the popular TV series, **The Office.**
 
-This is a simple Timed Quiz based on the popular tv show <strong>The Office.</strong>
+## Game Instructions
+
+1. Press the Start button to begin the game
+2. Try to pick the correct answer from the given choices within the time limit
+3. Keep guessing until you have answered all of the questions
+4. At the end, you will see how many questions you answered correctly, incorrectly, or left unanswered due to the time limit
+
+## Built With
+
+- Bootstrap
+- CSS3
+- HTML5
+- JavaScript
+- jQuery
+
+## Deployed Link
+
+[https://adishthapa.github.io/UNCBootcamp-HW05-Timed-Quiz](https://adishthapa.github.io/UNCBootcamp-HW05-Timed-Quiz)
