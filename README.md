@@ -19,4 +19,4 @@ A trivia game based on the popular TV series, **The Office.**
 
 ## Deployed Link
 
-[https://adishthapa.github.io/the-office-trivia-game](https://adishthapa.github.io/the-office-trivia-game)
+[https://adishthapa.com/the-office-trivia-game](https://adishthapa.com/the-office-trivia-game)
