@@ -19,4 +19,4 @@ A trivia game based on the popular TV series, **The Office.**
 
 ## Deployed Link
 
-[https://adishthapa.github.io/UNCBootcamp-HW05-Timed-Quiz](https://adishthapa.github.io/UNCBootcamp-HW05-Timed-Quiz)
+[https://adishthapa.github.io/the-office-timed-quiz](https://adishthapa.github.io/the-office-timed-quiz)
